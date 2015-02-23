@@ -1406,11 +1406,7 @@ if (typeof jQuery === 'undefined') {
                         $field.removeClass(this.options.control.valid).removeClass(this.options.control.invalid);
 
                         if (isValidField === true) {
-                            var isValid = this.isValid();
-                            if (isValid !== null) {
-                                this.disableSubmitButtons(!isValid);
-                            }
-
+                            this.disableSubmitButtons(this.isValid() === false);
                             $field.addClass(this.options.control.valid);
                         } else if (isValidField === false) {
                             this.disableSubmitButtons(true);
