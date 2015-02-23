@@ -215,7 +215,7 @@ $(document).ready(function() {
 
     $('.addButton').on('click', function() {
         var $template = $('#emailTemplate'),
-            $row      = $template.clone().removeAttr('id').insertBefore('#emailRow').removeClass('hide'),
+            $row      = $template.clone().removeAttr('id').insertAfter('#emailRow').removeClass('hide'),
             $el       = $row.find('input').eq(0);
         $('#accountForm').formValidation('addField', $el);
 
