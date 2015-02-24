@@ -1,4 +1,4 @@
-# FormValidation - [v0.6.0](http://formvalidation.io/download/)
+# FormValidation - [v0.6.1](http://formvalidation.io/download/)
 
 [http://formvalidation.io](http://formvalidation.io) - The best [jQuery](http://jquery.com/) plugin to validate form fields, designed to use with:
 
@@ -66,7 +66,7 @@ See the [official website](http://formvalidation.io) for the full list of featur
 
 ## Download
 
-* Latest version: [v0.6.0](http://formvalidation.io/download/), released on 2015-01-06
+* Latest version: [v0.6.1](http://formvalidation.io/download/), released on 2015-02-24
 * For older versions, look at the [Releases](https://github.com/formvalidation/formvalidation/releases) page
 * Release History: Look at the [Change Log](CHANGELOG.md)
 

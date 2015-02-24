@@ -1,6 +1,6 @@
 # Change Log
 
-## v0.6.1 (not released yet)
+## v0.6.1 (2015-02-24)
 
 __New Features__
 * #467: Add ```dataType```, ```crossDomain```, ```validKey``` options for [remote](http://formvalidation.io/validators/remote/) validator.
