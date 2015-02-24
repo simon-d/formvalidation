@@ -5,7 +5,7 @@
 __New Features__
 * #467: Add ```dataType```, ```crossDomain```, ```validKey``` options for [remote](http://formvalidation.io/validators/remote/) validator.
 
-It's possible to use remote validator to connect to external validator API, such as [MailGun (#1325)](https://github.com/formvalidation/formvalidation/issues/1315)
+It's possible to use remote validator to connect to external validator API, such as [MailGun (#1315)](https://github.com/formvalidation/formvalidation/issues/1315)
 
 * #940: Add ```declarative``` option to support big form
 * #1328, #1330: Add Netherlands [phone](http://formvalidation.io/validators/phone/) validator, thanks to [@HendrikSwBase](https://github.com/HendrikSwBase)
@@ -52,6 +52,7 @@ __Document__
 * #1205: Add [Playing with Bootstrap Material Design](http://formvalidation.io/examples/bootstrap-material-design/) example
 * #1308: Update [Showing card icon](http://formvalidation.io/validators/creditCard/#showing-card-icon) example
 * #1313: Add [Adding warning validation state](http://formvalidation.io/examples/adding-warning-validation-state/) example
+* #1315: Add [Using Mailgun API to validate email address](http://formvalidation.io/examples/using-mailgun-api-validate-email-address/) example
 * #1333: Update [Enabling the submit button](http://formvalidation.io/examples/enabling-submit-button/) example
 * #1378: Add [Validating multiple inputs as one](http://formvalidation.io/examples/validating-multiple-inputs-one/) example
 * #1388: Add [Field value is changed programmatically](http://formvalidation.io/examples/field-value-changed-programmatically/) example
