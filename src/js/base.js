@@ -51,6 +51,7 @@ if (typeof jQuery === 'undefined') {
         this.STATUS_VALIDATING    = 'VALIDATING';
         this.STATUS_INVALID       = 'INVALID';
         this.STATUS_VALID         = 'VALID';
+        this.STATUS_IGNORED       = 'IGNORED';
 
         // Determine the event that is fired when user change the field value
         // Most modern browsers supports input event except IE 7, 8.
