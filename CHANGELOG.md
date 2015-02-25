@@ -1,5 +1,10 @@
 # Change Log
 
+## v0.6.2 (not released yet)
+
+__Document__
+* #38: Add [Loading and saving data in a modal](http://formvalidation.io/examples/loading-saving-data-modal/) example
+
 ## v0.6.1 (2015-02-24)
 
 __New Features__
