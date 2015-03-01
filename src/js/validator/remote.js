@@ -109,7 +109,9 @@
 
                 xhr
                     .success(function(response) {
-                        response.valid = response[validKey] === true || response[validKey] === 'true';
+                        response.valid = (response[validKey] === true || response[validKey] === 'true')
+                                        ? true
+                                        : (response[validKey] === false || response[validKey] === 'false' ? false : null);
                         dfd.resolve($field, 'remote', response);
                     })
                     .error(function(response) {

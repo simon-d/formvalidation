@@ -43,7 +43,7 @@
 
             if (options.callback) {
                 var response = FormValidation.Helper.call(options.callback, [value, validator, $field]);
-                result = ('boolean' === typeof response) ? { valid: response } : response;
+                result = ('boolean' === typeof response || null === response) ? { valid: response } : response;
             }
 
             dfd.resolve($field, 'callback', result);

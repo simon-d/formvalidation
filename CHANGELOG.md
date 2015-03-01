@@ -2,6 +2,12 @@
 
 ## v0.6.2 (not released yet)
 
+__New Features__
+* Add STATUS_IGNORED status. The field will be ignored for the current validation if the validator returns null/undefined
+
+__Bug Fixes__
+* The [updateMessage()](http://formvalidation.io/api/#update-message) method must return the plugin instance for chaining
+
 __Document__
 * #38: Add [Loading and saving data in a modal](http://formvalidation.io/examples/loading-saving-data-modal/) example
 
