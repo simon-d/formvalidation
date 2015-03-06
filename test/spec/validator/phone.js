@@ -94,6 +94,38 @@ describe('phone', function() {
         }
     });
 
+    it('Australia phone number', funcion() {
+      this.fv.updateOption('phone', 'phone', 'country', 'AU');
+
+      // Valid samples
+      var validSamples = [
+        '0212345678',
+        '02 12345678',
+        '02 1234 5678',
+        '+61212345678',
+        '+612 12345678',
+        '+612 1234 5678',
+        '(02)12345678',
+        '(02)1234 5678',
+        '(02) 1234 5678',
+        '(+612)12345678',
+        '(+612) 12345678',
+        '(+612) 1234 5678',
+        '0403111111',
+        '0403 111111',
+        '0403 111 111',
+        '+61403111111',
+        '+61403 111111',
+        '+61403 111 111',
+      ];
+      for (var i in validSamples) {
+        this.fv.resetForm();
+        this.$phone.val(validSamples[i]);
+        this.fv.validate();
+        expect(this.fv.isValid()).toBeTruthy();
+      }
+    });
+
     it('Bulgaria phone number', function() {
         this.fv.updateOption('phone', 'phone', 'country', 'BG');
 
